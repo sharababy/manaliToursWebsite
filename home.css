@@ -321,8 +321,7 @@ main{
 	left:480px;
 	width:400px;
 	overflow: hidden;
-	height:4.5em;
-
+	height:5em;
 
 }
 dig1{
@@ -332,20 +331,20 @@ dig1{
 	position: absolute;
 	font-size: 60px;
 	font-family: Poppins;
+	text-decoration: underline;
 
 }
 
 
 dig2{
-	animation:rollup2 5s ease 0s infinite normal;
+		animation:rollup2 5s ease 0s infinite normal;
 		left:0px;
 		top:0;
 		position: absolute;
 		font-size: 60px	;
-
 		font-family: Poppins;
 
-
+		text-decoration: underline;
 }
 
 
