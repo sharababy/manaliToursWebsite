@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<link rel="stylesheet" type="text/css" href="home.css">
-
+  	<script type="text/javascript" src="jquery.min.js"></script>
 
 	</head>
 
@@ -18,9 +18,15 @@
 					EPIC MOTOR TOURS
 				</header>
 				<nav-right>
-					<nav-link><a href="#">Tours <img src="down_arrow.png" class="down_arrow"></a></nav-link>
-					<nav-link><a href="#">Rentals <img src="down_arrow.png" class="down_arrow"></a></nav-link>
-					<nav-link><a href="#">Contact <img src="down_arrow.png" class="down_arrow"></a></nav-link>
+						<nav-link>
+							<a href="#tours">Tours</a>
+	            		</nav-link>
+						<nav-link>
+							<a href="#">Rentals</a>
+						</nav-link>
+						<nav-link>
+							<a href="#">Contact</a>
+						</nav-link>
 
 				</nav-right>
 			</nav>
@@ -41,30 +47,68 @@
 		</slide1>
 
 		
-		<tours>
+		<tours id="tours">
+
+			<div class="subHeading blackBg">OUR &nbspTOURS</div>
 			<div id='underlay'></div>
 			<canvas id="cartesian" height="700"></canvas>
 		</tours>
 		<tour1>
 				<boxHead>The Trans Himalayan Tour</boxHead>
+
+				<para>
+				The Himalayan motorcycle adventure tour takes you through all type of terrains, Lush green forest of Kullu to the jagged mountains of Kinnuar, flooded roads and off road adventure of Spiti to the High passes of Ladakh. The pace is such that one gets well acquainted to the motorbike and acclimatises to the thin air of the high passes of Himalayas. A once in a lifetime tour and a must for all.
+				</para>
+
+				<popUp><a href="#" class="leftPop">Learn More</a></popUp>
 				
 		</tour1>
 		<tour2>
 				<boxHead>The Great Himalayan Tour</boxHead>
-				
+				<para>
+				The Great Himalayan moto adventure tour is a motorcycle tour that operates in the Great Himalayan region of Northern India. This motorbiking tour is challenging and only for the experienced and real motorbiking lovers. Challenging? most definitely. As this tour takes one through the hidden valleys like pangi, Land of high passes Ladakh and isolated lands of Zanskar.
+				</para>
+				<popUp><a href="#" class="middlePop">Learn More</a></popUp>
+
 		</tour2>
 		<tour3>
 				<boxHead>The Manali - Leh Tour</boxHead>
-				
+
+				<para>
+					The adventure of riding your bike through Ladakh calls for tourists from around the globe. The highlight of this tour is riding through the tough roads and High Mountain passes on your bike. Experience Ladakhi culture, a visit to Khardung La Pass, the highest motorable pass in the world along with visit to Pangong Tso, one of the most famous and breathtaking lakes in the world.
+				</para>
+				<popUp><a href="#" class="rightPop">Learn More</a></popUp>
+
 		</tour3>
+		<tour4>
+				<boxHead>The Sach Pass Tour</boxHead>
+				<para>
+					Sach pass tour takes on into a remote & rugged tribal region, situated on the Northwest of the Himachal Pradesh state. The road is dubbed as the ‘World’s Most Dangerous Road’, as at times you will be riding on the edge of a narrow and unpaved road with a straight drop of thousands of feet in the Valley below.
+					If you are an adventure motorcyclist and looking for a dose of ultimate adrenaline rush, this ride will be a religious experience for you.
+				</para>
+				<popUp><a href="#" class="leftPop1">Learn More</a></popUp>
+
+		</tour4>
+		<tour5>
+				<boxHead>The Spiti Kinnaur Tour</boxHead>
+				<para>
+					Place for an adventure motorcyclist, stunningly beautiful, lush green to barren mountains to lush green again.<br> On the way visiting some of the oldest Buddhist monasteries for a rich cultural experience and staying in isolated villages. Ride across three high-altitude passes, visit the highest villages in the world to remain populated year-round.
+
+				</para>
+				<popUp><a href="#" class="rightPop1">Learn More</a></popUp>
+
+		</tour5>
 		<slide2>
 
 
 		</slide2>
+		<slide3 id="rentals">
+		<div class="subHeading">Rentals</div>
+		</slide3>
 
 	
 	<script type="text/javascript" src="bgBike.js"></script>
-
+	<script type="text/javascript" src="index.js"></script>>
 	</body>
 
 </html>
