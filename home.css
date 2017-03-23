@@ -172,6 +172,8 @@ tour1{
 	color:#FFFFFF;
 
 	overflow: hidden;
+
+	
 }
 
 tour1:hover popUp{
@@ -246,6 +248,10 @@ tour1,tour2,tour3{
 	z-index: 10;
 
 	overflow-y: hidden;
+
+	-webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 }
 tour4,tour5{
 	top:1580px;
@@ -253,6 +259,10 @@ tour4,tour5{
 	z-index: 10;
 
 	overflow-y: hidden;
+
+	-webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 }
 
 tour1 boxHead{
