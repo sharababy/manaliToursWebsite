@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 @import url('https://fonts.googleapis.com/css?family=Montserrat')
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
 body{
 	margin: 0; 
 
@@ -119,7 +122,177 @@ slide3{
 	background-size: 100% 796px;	
 
 }
+slide4{
+	position: absolute;
+	top:3730px;
+	left:0;
+	right:0;
+	height:950px;
 
+	background:#376596;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% 796px;	
+
+}
+
+slide5{
+	position: absolute;
+	top:4680px;
+	left:0;
+	right:0;
+	height:750px;
+
+	background:#F45B69;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% 796px;	
+
+}
+
+.theGuyPic{
+	position: absolute;
+	top:200px;
+	left:50%;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: -120px;
+	border:2px solid #ffffff;
+	padding:20px;
+}
+.theGuyPic img{
+	height: 100%;
+	width:auto;
+
+}
+
+.theGuyName{
+	position: absolute;
+	top:470px;
+	left:50%;
+	margin-left:-140px;
+	width:300px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 30px;
+	color:#fff;
+
+}
+.theGuyDetails{
+	position: absolute;
+	top:550px;
+	left:50%;
+	margin-left:-25%;
+	width:50%;
+	text-align: center;
+	font-family: "PT Sans",sans-serif;
+	font-size: 18px;
+	color:#fff;
+
+}
+
+.theGuyAddress{
+	position: absolute;
+	top:240px;
+	left:5%;
+	width:300px;
+	text-align: center;
+	font-family: "PT Sans",sans-serif;
+	font-size: 23px;
+	color:#fff;
+	padding:10px;
+	border:2px solid #fff;
+}
+
+.theGuyPhone{
+	position: absolute;
+	top:280px;
+	right:5%;
+	width:300px;
+	text-align: center;
+	font-family: "PT Sans",sans-serif;
+	font-size: 23px;
+	color:#fff;
+	padding:10px;
+	border:2px solid #fff;
+}
+.boldHeading{
+	position: absolute;
+	top:100px;
+	left:100px;
+	font-size: 40px;
+	color:#fff;
+	font-family: Helvetica;
+	font-weight: bold;
+
+	border-bottom:2px solid #fff;
+}
+
+
+
+.review{
+	position: absolute;
+	
+	padding:30px;
+	border:2px solid transparent;
+}
+
+.review:hover{
+
+	border: 2px solid #fff;
+}
+
+.reviewText{
+	font-family: 'Merriweather', serif;
+	font-size: 35px;
+	color:#fff;
+	font-style: italic;
+}
+
+.reviewer{
+	font-family: Helvetica;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	text-align: right;
+
+}
+
+#rev1{
+	top:250px;
+	left:10%;
+}
+#rev2{
+	top:250px;
+	right:10%;
+}
+#rev3{
+	top:500px;
+	left:10%;
+}
+#rev4{
+	top:500px;
+	right:10%;
+}
+#rev5{
+	top:750px;
+	left:10%;
+}
+#rev6{
+	top:750px;
+	right:10%;
+}
+
+.tripIcon{
+	position: absolute;
+	top:70px;
+	right:100px;
+	height:150px;
+	width: auto;
+	background: transparent;
+}
 
 .rent1{
 	position: absolute;
