@@ -111,7 +111,7 @@ slide3{
 	top:1980px;
 	left:0;
 	right:0;
-	height:600px;
+	height:1750px;
 
 	background:#2A2B2E;
 	background-position: 0 0;
@@ -120,6 +120,109 @@ slide3{
 
 }
 
+
+.rent1{
+	position: absolute;
+	left:10%;
+	width:35%;
+	height:380px;
+	//border:2px solid #fff;
+	background: #DB423F;
+
+}
+
+
+#rent1l{
+	top:350px;
+}
+#rent1r{
+	top:350px;
+}
+#rent2l{
+	top:800px;
+}
+#rent2r{
+	top:800px;
+}
+#rent3l{
+	top:1250px;
+}
+#rent3r{
+	top:1250px;
+}
+.rent1 .innerImg{
+
+	position: absolute;
+	top:3%;
+	left:50%;
+	width:96%;
+	margin-left: -48%;
+	border:1px solid #fff;
+	height:80%;
+}
+
+.rent2 .innerImg{
+
+	position: absolute;
+	top:3%;
+	left:50%;
+	width:96%;
+	margin-left: -48%;
+	border:1px solid #fff;
+	height:80%;
+}
+
+.rent2{
+	position: absolute;
+	top:350px;
+	right:10%;
+	width:35%;
+	height:380px;
+	background: #DB423F;
+	//border:2px solid #fff;
+}
+
+.rentSubText{
+	position: absolute;
+	top:330px;
+	left:50%;
+	font-size: 22px;
+	color:#fff;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	width:300px;
+	//border-bottom:2px solid #fff;
+	padding:6px;
+	margin-left: -156px;
+}
+
+.rentRange{
+
+	position: absolute;
+	top:150px;
+	left:50%;
+	font-size: 27px;
+	color:#fff;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	width:90%;
+	//border-bottom:2px solid #fff;
+	margin-left: -45%;
+
+	opacity: 0;
+
+	transition: opacity 0.1s linear;
+}
+
+.rent1:hover > .rentRange{
+	opacity: 0.9;
+	background:#2A2B2E;
+}
+
+.rent2:hover > .rentRange{
+	opacity: 0.9;
+	background:#2A2B2E;
+}
 tours{
 
 	position: absolute;
@@ -729,8 +832,6 @@ box-shadow: -9px 11px 42px -8px rgba(0,0,0,0.75);
 
 	color: #499167;
 }
-
-
 para{
 
 	font-size: 16px;
@@ -741,6 +842,8 @@ para{
 	text-align: left;
 	display: block;
 }
-
+.neon{
+	text-shadow: 0 0 10px #87ceeb, 0 0 15px #87ceeb, 0 0 30px deepskyblue, 0 0 30px deepskyblue, 0 0 30px deepskyblue, 0 0 40px deepskyblue, 0 0 50px deepskyblue, 0 0 60px deepskyblue, 0 0 70px deepskyblue, 0 0 80px deepskyblue, 0 0 90px deepskyblue, 0 0 100px skyblue;
+}
 
 
