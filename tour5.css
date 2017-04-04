@@ -60,7 +60,7 @@ costBlock{
       -webkit-transform:translateX(-121px) translateY(11px);
       -o-transform:translateX(-121px) translateY(11px);
       -moz-transform:translateX(-121px) translateY(11px); 
-      background: #003459;
+      background: #FCA311;
     }
 
 .fixedLink{
@@ -119,7 +119,7 @@ costBlock{
  	position: absolute;
  	top:0;
  	left:0;
-  background: #003459;
+  background: #FCA311;
  	height:400px;
   -webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);

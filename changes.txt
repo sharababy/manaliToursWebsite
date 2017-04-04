@@ -1,13 +1,13 @@
-1. Change the font
-2. Change the Scrolling word to scrolling review
-give stars scrolling
+		Change the font
+		2. Change the Scrolling word to scrolling review
+		give stars scrolling
 
-tours dropdown menu
+		tours dropdown menu
 
-less spce for animation
+		less spce for animation
 
-http://www.eaglerider.com/rentals
-similar boxes
+		http://www.eaglerider.com/rentals
+		similar boxes
 
 icons of trip advisor
 bring them down
@@ -15,4 +15,15 @@ bring them down
 small space between days
 
 change order description-
+order-> description -> itenrary(more pictures) -> all data
 make things more visible
+
+
+wave effect for book now link
+		stretch and fix google form
+new logo
+
+		
+		text for rentals like stick note
+		remove security info
+

@@ -176,6 +176,8 @@ nav-link a:hover{
 .bigNavlink img{
 	position: absolute;
 	right: 10px;
+	width:25px;
+	height:auto;
 }
 .bigNavDetails ul{
 	text-decoration: none;
@@ -281,7 +283,7 @@ slide3{
 	top:1830px;
 	left:0;
 	right:0;
-	height:1750px;
+	height:1500px;
 
 	background:#2A2B2E;
 	background-position: 0 0;
@@ -291,7 +293,7 @@ slide3{
 }
 slide4{
 	position: absolute;
-	top:3580px;
+	top:3330px;
 	left:0;
 	right:0;
 	height:950px;
@@ -305,7 +307,7 @@ slide4{
 
 slide5{
 	position: absolute;
-	top:4530px;
+	top:4280px;
 	left:0;
 	right:0;
 	height:750px;
@@ -598,12 +600,27 @@ slide5{
 }*/
 .infoBox{
 	position: absolute;
+	width:30%;
+	height:350px;
+
+	min-height: 300px;
+
+	background: #e5e5e7;
+
+	-webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+}
+
+#infoBox1{
+
+	top:1050px;
+	left:15%;
+
+}
+#infoBox2{
 	top:1050px;
 	left:50%;
-	width:60%;
-	height:auto;
-	margin-left: -30%;
-	border:2px solid #ccc;
 }
 
 .infoText{
@@ -611,15 +628,17 @@ slide5{
 	text-align: center;
 	font-family: Helvetica;
 	font-size: 30px;
-	color:#fff;
+	color:#000;
 	margin:30px;
 
 }
 
 .infoPara{
+	color: #000;
 	text-align: center;
 }
 .infoPara ul{
+	color:#000;
 	text-align: left;
 	font-size: 17px;
 }
@@ -671,7 +690,7 @@ tours{
 
 tour1{
 	position: absolute;
-	left:5%;
+	left:3%;
 	width:30%;
 	background: #E63946;
 	color:#FFFFFF;
@@ -680,7 +699,7 @@ tour1{
 
 	
 }
-
+/*
 tour1:hover popUp{
 
 	top:290px;
@@ -705,7 +724,7 @@ tour5:hover popUp{
 
 	top:290px;
 
-}
+}*/
 tour2{
 	position: absolute;
 	left:35%;
@@ -718,7 +737,7 @@ tour2{
 
 tour3{
 	position: absolute;
-	left:65%;
+	left:67%;
 	width:30%;
 
 	background: #003459;
@@ -729,7 +748,7 @@ tour3{
 
 tour4{
 	position: absolute;
-	left:20%;
+	left:18%;
 	width:30%;
 
 	background: #499167;
@@ -739,7 +758,7 @@ tour4{
 }
 tour5{
 	position: absolute;
-	left:50%;
+	left:52%;
 	width:30%;
 
 	background: #FCA311;
@@ -748,7 +767,7 @@ tour5{
 
 }
 tour1,tour2,tour3{
-	top:1130px;
+	top:1030px;
 	height: 350px;
 	z-index: 10;
 
@@ -759,7 +778,7 @@ tour1,tour2,tour3{
 	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 }
 tour4,tour5{
-	top:1480px;
+	top:1430px;
 	height: 350px;
 	z-index: 10;
 
@@ -1861,15 +1880,23 @@ bouncer img{
 
 popUp{
 	position: absolute;
-	top:400px;
+	top:300px;
 	height: 40px;
 	width:auto;
-	left:50px;
 	transition: top 0.2s linear;
-
-
 	
 }
+
+
+
+.leftPopUp{
+	left:50px;
+}
+
+.rightPopUp{
+	right:50px;
+}
+
 
 popUp a{
 	font-family: 'PT Sans', sans-serif;
@@ -1891,7 +1918,7 @@ box-shadow: -9px 11px 42px -8px rgba(0,0,0,0.75);
 
 .leftPop:hover{
 	background: #fff;
-	color: #E63946;
+	color: #000;
 }
 
 
@@ -1902,7 +1929,7 @@ box-shadow: -9px 11px 42px -8px rgba(0,0,0,0.75);
 
 .rightPop:hover{
 	background: #fff;
-	color: #003459;
+	color: #000;
 }
 
 .rightPop1:hover{
@@ -1913,6 +1940,57 @@ box-shadow: -9px 11px 42px -8px rgba(0,0,0,0.75);
 	background: #fff;
 
 	color: #499167;
+}
+
+tourCost{
+	position: absolute;
+	top:220px;
+	left:0;
+	right:70%;
+	font-family: "Lato",serif;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding:10px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+	height:25px;
+}
+tourDates{
+	position: absolute;
+	top:220px;
+	left:30%;
+	right:0;
+	height:25px;
+	font-family: "Lato",serif;
+	font-size: 19px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding:10px;
+	border-left:2px solid #fff;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+
+
+}
+
+.strip1{
+	background: #3A3238;	
+}
+
+.strip2{
+	background: #3A3238;
+}
+.strip3{
+	background: #3A3238;
+}
+.strip4{
+	background: #3A3238;
+}
+.strip5{
+	background: #3A3238;
 }
 para{
 
@@ -1929,3 +2007,11 @@ para{
 }
 
 
+iframe{
+	position: absolute;
+	top:750px;
+	height:1000px;
+	left:0%;
+	width:100%;
+	margin-left:-380px;
+}
