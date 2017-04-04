@@ -3,20 +3,22 @@
 	<head> 
 	<title>Epic Motor Tours</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  	<link rel="stylesheet" type="text/css" href="home.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
   	<link rel="stylesheet" type="text/css" href="bike.css">
   	<script type="text/javascript" src="jquery.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="carousel.css">
+	<script type="text/javascript" src="carousel.js"></script>
 
 	</head>
 
 	<body>
 
 		<slide1>
-			<nav>
-				<img src="logo.png" class="logo">
-				<nav-right>
+			<MainNav>
+				<img src="logoN.png" class="logo">
+				<div class="navig">
 						<nav-link>
 							<a href="#tours" class="navLink1">TOURS</a>
 	            		</nav-link>
@@ -26,8 +28,7 @@
 						<nav-link>
 							<a href="#contact">CONTACT</a>
 						</nav-link>
-
-				</nav-right>
+				</div>
 				<div class="bigNav">
 					<div class="bigNavlink" id="bigNavLink1">
 						<a href="#Tour1"> Trans Himalayan Tour</a>
@@ -53,7 +54,7 @@
 
 
 			
-			</nav>
+			</MainNav>
 
 
 			<content>
@@ -95,7 +96,7 @@
 				<para>
 										
 				</para>
-				<tourCost class="strip1"> &#8377; 1,50,000</tourCost><tourDates class="strip1"> 21 Days (7th - 20th July)</tourDates>
+				<tourCost class="strip"> &#8377; 1,50,000</tourCost><tourDates class="strip"> 21 Days (7th - 20th July)</tourDates>
 
 				<popUp class="leftPopUp "><a href="tour3.html" class="leftPop">View Tour</a></popUp>
 				<popUp class="rightPopUp "><a href="#" class="rightPop">Book Now</a></popUp>
@@ -105,7 +106,7 @@
 				<para>
 										
 				</para>
-				<tourCost class="strip2"> &#8377; 1,50,000</tourCost><tourDates class="strip2"> 21 Days (26th Aug - 15th Sept)</tourDates>
+				<tourCost class="strip"> &#8377; 1,50,000</tourCost><tourDates class="strip"> 21 Days (26th Aug - 15th Sept)</tourDates>
 
 				<popUp class="leftPopUp"><a href="tour2.html" class="leftPop">View Tour</a></popUp>
 				<popUp class="rightPopUp"><a href="#" class="rightPop">Book Now</a></popUp>
@@ -116,7 +117,7 @@
 				<para>
 										
 				</para>
-				<tourCost class="strip3"> &#8377; 69,500</tourCost><tourDates class="strip3"> 12 Days (25th June - 5th July)</tourDates>
+				<tourCost class="strip"> &#8377; 69,500</tourCost><tourDates class="strip"> 12 Days (25th June - 5th July)</tourDates>
 
 				<popUp class="leftPopUp"><a href="tour1.html" class="leftPop">View Tour</a></popUp>
 				<popUp class="rightPopUp"><a href="#" class="rightPop">Book Now</a></popUp>
@@ -127,7 +128,7 @@
 				<para>
 										
 				</para>
-				<tourCost class="strip4"> &#8377; 55,500</tourCost><tourDates class="strip4"> 9 Days (July - October)</tourDates>
+				<tourCost class="strip"> &#8377; 55,500</tourCost><tourDates class="strip"> 9 Days (July - October)</tourDates>
 
 				<popUp class="leftPopUp"><a href="tour4.html" class="leftPop">View Tour</a></popUp>
 				<popUp class="rightPopUp"><a href="#" class="rightPop">Book Now</a></popUp>
@@ -137,7 +138,7 @@
 				<para>
 										
 				</para>
-				<tourCost class="strip5"> &#8377; 55,500</tourCost><tourDates class="strip5"> 10 Days (July - October)</tourDates>
+				<tourCost class="strip"> &#8377; 55,500</tourCost><tourDates class="strip"> 10 Days (July - October)</tourDates>
 
 				<popUp class="leftPopUp"><a href="tour5.html" class="leftPop">View Tour</a></popUp>
 				<popUp class="rightPopUp"><a href="#" class="rightPop">Book Now</a></popUp>
@@ -149,7 +150,7 @@
 		</slide2>
 		<slide3 id="rentals">
 		<div class="subHeading">Rentals</div>
-			<div class="container">
+			<div class="contain">
 	    		<div class="bike-body">
 	      			<div class="seat"></div>
 	      			<div class="cover"></div>
@@ -267,7 +268,7 @@
 
 			<a href="https://www.tripadvisor.in/Attraction_Review-g297618-d7913529-Reviews-Epic_Moto_Tours-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh.html"><img src="tripAdvisor.png" class="tripIcon"></a>
 
-			<a href="https://www.tripadvisor.in/ShowUserReviews-g297618-d7913529-r440524904-Epic_Moto_Tours-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh.html#REVIEWS" target="_blank">
+			<!-- <a href="https://www.tripadvisor.in/ShowUserReviews-g297618-d7913529-r440524904-Epic_Moto_Tours-Manali_Manali_Tehsil_Kullu_District_Himachal_Pradesh.html#REVIEWS" target="_blank">
 			<div class="review" id="rev1">
 				
 				<div class="reviewText">"Exceeded all our Expectations!"</div><br>
@@ -304,7 +305,93 @@
 				
 				<div class="reviewText">"The name says it all ( Epic )”"</div><br>
 				<div class="reviewer">by Sampat S</div>
-			</div></a>
+			</div></a> -->
+
+			<div class="container">
+			  <div class='row'>
+			    <div class='col-md-offset-2 col-md-8'>
+			      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+			        <!-- Bottom Carousel Indicators -->
+			        <!-- <ol class="carousel-indicators">
+			          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+			          <li data-target="#quote-carousel" data-slide-to="1"></li>
+			          <li data-target="#quote-carousel" data-slide-to="2"></li>
+			          <li data-target="#quote-carousel" data-slide-to="3"></li>
+			          <li data-target="#quote-carousel" data-slide-to="4"></li>
+			          <li data-target="#quote-carousel" data-slide-to="5"></li>
+			        </ol>
+			         -->
+			        <!-- Carousel Slides / Quotes -->
+			        <div class="carousel-inner">
+			        
+			          <!-- Quote 1 -->
+			          <div class="item active">
+			              <div class="row">
+			     
+			                <div class="col-sm-9">
+			                  <p class="reviewText">Exceeded all our Expectations!</p>
+			                  <small class="reviewer">by Volker H</small>
+			                </div>
+			              </div>
+			          </div>
+			          <!-- Quote 2 -->
+			          <div class="item">
+			              <div class="row">
+			               
+			                <div class="col-sm-9">
+			                  <p class="reviewText">Outstanding service and facilities.</p>
+			                  <small class="reviewer">by Lobzang Tandup</small>
+			                </div>
+			              </div>
+			          </div>
+			          <!-- Quote 3 -->
+			          <div class="item">
+			              <div class="row">
+			               
+			                <div class="col-sm-9">
+			                  <p class="reviewText">Journey of an lifetime!</p>
+			                  <small class="reviewer">by Sankash S</small>
+			                </div>
+			              </div>
+			          </div>
+			           <!-- Quote 4 -->
+			          <div class="item">
+			              <div class="row">
+			               
+			                <div class="col-sm-9">
+			                  <p class="reviewText">Himalayas Bestest bike rental</p>
+			                  <small class="reviewer">by Tenzin J</small>
+			                </div>
+			              </div>
+			          </div>
+			           <!-- Quote 5 -->
+			          <div class="item">
+			              <div class="row">
+			               
+			                <div class="col-sm-9">
+			                  <p class="reviewText">A Spiti to remember!</p>
+			                  <small class="reviewer">by Swati S</small>
+			                </div>
+			              </div>
+			          </div>
+			           <!-- Quote 6 -->
+			          <div class="item">
+			              <div class="row">
+			                
+			                <div class="col-sm-9">
+			                  <p class="reviewText">The name says it all ( Epic )</p>
+			                  <small class="reviewer">by Sampat S</small>
+			                </div>
+			              </div>
+			          </div>
+			        </div>
+			        
+			        <!-- Carousel Buttons Next/Prev -->
+			       
+			      </div>                          
+			    </div>
+			  </div>
+			</div>
 		</slide4>
 	
 		<slide5 id="contact">
@@ -327,7 +414,7 @@
 		</div>
 		</slide5>
 
-	<!-- <script type="text/javascript" src="bgBike.js"></script> -->
+	<script type="text/javascript" src="bgBike.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 
 

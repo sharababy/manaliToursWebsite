@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="tour3.css">
+		<link rel="stylesheet" type="text/css" href="tourCommon.css">
 		<title>Trans Himalayan | Epic Tour</title>
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300" rel="stylesheet" type="text/css">
@@ -8,6 +8,23 @@
     	<link href="http://fonts.googleapis.com/css?family=Exo+2:200,300,100" rel="stylesheet" type="text/css">
     	<link href="http://fonts.googleapis.com/css?family=Exo:200,300,100" rel="stylesheet" type="text/css">
     	
+
+    	<style type="text/css">
+    		.costBlock:after{
+    			background: #E63946;
+    		}
+    		.cdnContainer{
+    			background: #E63946;
+    		}
+    		.costBlock:after {
+				transform:translateX(-130px) translateY(11px);
+				-ms-transform:translateX(-130px) translateY(11px);
+				-webkit-transform:translateX(-130px) translateY(11px);
+				-o-transform:translateX(-130px) translateY(11px);
+				-moz-transform:translateX(-130px) translateY(11px); 
+ 			}
+
+    	</style>
 	</head>
 	<body>
 		<div class="cdnContainer">
@@ -15,7 +32,9 @@
 			<div class="fixedLink"><a href="#">Book Now!</a></div>
 			<div class="countdown">
 				<h1>The Trans Himalayan Tour</h1>
-				<h2><costBlock class="costBlock">&#8377; 1,50,000</costBlock><br>
+				<h2>
+				<dateBlock class="dateBlock">21 Days (7th - 20th July)</dateBlock>
+				<costBlock class="costBlock">&#8377; 1,50,000</costBlock><br>
 					Next Tour Begins in...
 				</h2>
 		      <div class="days-container">

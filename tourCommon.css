@@ -1,5 +1,5 @@
 body{
-	margin: 0; 
+  margin: 0; 
   background:  rgb(230,230,230);
 
 }
@@ -14,8 +14,7 @@ h2{
 
 }
 
-costBlock{
-  //transform:translateY(-40px);
+dateBlock{
   display: inline-block;
   margin:20px;
   background: #fff;
@@ -26,10 +25,27 @@ costBlock{
   transition: background 0.2s linear;
   font-weight: normal;
   z-index: 10;
-        border-radius: 5px;
+  border-radius: 5px;
+  font-size: 21px;
+
+}
+
+costBlock{
+  display: inline-block;
+  margin:20px;
+  background: #fff;
+  padding:10px;
+  border:2px solid #fff;
+  color:#000;
+  text-decoration: none;
+  transition: background 0.2s linear;
+  font-weight: normal;
+  z-index: 10;
+  border-radius: 5px;
 
 
 }
+
 .costBlock:before{
       content: '';
       display: inline-block;
@@ -60,7 +76,6 @@ costBlock{
       -webkit-transform:translateX(-121px) translateY(11px);
       -o-transform:translateX(-121px) translateY(11px);
       -moz-transform:translateX(-121px) translateY(11px); 
-      background: #499167;
     }
 
 .fixedLink{
@@ -111,16 +126,15 @@ costBlock{
 
 
 .cdnContainer{
-	background: #000;
-	font-family: 'Lato', sans-serif;
- 	color: #fff;
- 	width: 100%;
- 	overflow: hidden;
- 	position: absolute;
- 	top:0;
- 	left:0;
-  background: #499167;
- 	height:390px;
+  background: #000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  height:390px;
   -webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
@@ -433,9 +447,7 @@ costBlock{
   z-index: 15;
 }
 
-
-
-.infoBox{
+  .infoBox{
 /*  position: absolute;
   left:50%;
 */  width:90%;
@@ -444,7 +456,8 @@ costBlock{
   font-family: Helvetica;
 
 }
-
+  
+  
 }
 
 
@@ -525,9 +538,11 @@ costBlock{
 }
 
 .infoPara{
+
   text-align: center;
 }
 .infoPara ul{
+
   text-align: left;
   font-size: 17px;
 }
@@ -609,7 +624,7 @@ costBlock{
     
   }
 
-  .infoBox{
+.infoBox{
 /*  position: absolute;
   left:50%;
 */  width:60%;
@@ -618,8 +633,6 @@ costBlock{
   font-family: Helvetica;
 
 }
-
-
 }
 
 .upArrow{

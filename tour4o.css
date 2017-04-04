@@ -1,0 +1,32 @@
+
+.costBlock:after {
+      content: '';
+      border-radius: 15px;
+      height: 10px;
+      width: 10px;
+      position: absolute;
+      z-index:0;
+      transform:translateX(-121px) translateY(11px);
+      -ms-transform:translateX(-121px) translateY(11px);
+      -webkit-transform:translateX(-121px) translateY(11px);
+      -o-transform:translateX(-121px) translateY(11px);
+      -moz-transform:translateX(-121px) translateY(11px); 
+}
+
+
+.cdnContainer{
+      background: #000;
+      font-family: 'Lato', sans-serif;
+      color: #fff;
+      width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top:0;
+      left:0;
+      height:390px;
+  -webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+
+  z-index: 0;
+}
