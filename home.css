@@ -506,24 +506,23 @@ slide5{
 	top:700px;
 }
 .rent1 .innerImg{
+	background: #fff;
 
 	position: absolute;
 	top:3%;
 	left:50%;
 	width:96%;
 	margin-left: -48%;
-	border:1px solid #fff;
 	height:70%;
 	overflow:hidden;
 }
 .rent2 .innerImg{
-
+	background: #fff;
 	position: absolute;
 	top:3%;
 	left:50%;
 	width:96%;
 	margin-left: -48%;
-	border:1px solid #fff;
 	height:70%;
 	overflow:hidden;
 }
@@ -536,13 +535,12 @@ slide5{
 }
 
 .rent3 .innerImg{
-
+	background: #fff;
 	position: absolute;
 	top:3%;
 	left:50%;
 	width:96%;
 	margin-left: -48%;
-	border:1px solid #fff;
 	height:70%;
 }
 
