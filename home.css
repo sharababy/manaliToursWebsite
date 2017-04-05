@@ -264,7 +264,7 @@ slide2{
 	top:1200px;
 	left:0;
 	right:0;
-	height:630px;
+	height:1130px;
 
 	background:#e5e5e7;
 	background-position: 0 0;
@@ -275,7 +275,7 @@ slide2{
 
 slide3{
 	position: absolute;
-	top:1830px;
+	top:2330px;
 	left:0;
 	right:0;
 	height:1500px;
@@ -288,7 +288,7 @@ slide3{
 }
 slide4{
 	position: absolute;
-	top:3330px;
+	top:3830px;
 	left:0;
 	right:0;
 	height:650px;
@@ -302,7 +302,7 @@ slide4{
 
 slide5{
 	position: absolute;
-	top:3980px;
+	top:4480px;
 	left:0;
 	right:0;
 	height:750px;
@@ -692,32 +692,6 @@ tour1{
 
 	
 }
-/*
-tour1:hover popUp{
-
-	top:290px;
-
-}
-tour2:hover popUp{
-
-	top:290px;
-
-}
-tour3:hover popUp{
-
-	top:290px;
-
-}
-tour4:hover popUp{
-
-	top:290px;
-
-}
-tour5:hover popUp{
-
-	top:290px;
-
-}*/
 tour2{
 	position: absolute;
 	left:35%;
@@ -761,7 +735,7 @@ tour5{
 }
 tour1,tour2,tour3{
 	top:1030px;
-	height: 350px;
+	height: 600px;
 	z-index: 10;
 
 	overflow-y: hidden;
@@ -771,8 +745,8 @@ tour1,tour2,tour3{
 	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 }
 tour4,tour5{
-	top:1430px;
-	height: 350px;
+	top:1680px;
+	height: 600px;
 	z-index: 10;
 
 	overflow-y: hidden;
@@ -781,6 +755,14 @@ tour4,tour5{
 	-moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
 }
+
+.tourImg{
+	position: absolute;
+	top:200px;
+	left:50%;
+	margin-left:-150px; 
+}
+
 
 tour1 boxHead{
 	border-bottom: 2px #FFFFFF solid;
@@ -1873,7 +1855,7 @@ bouncer img{
 
 popUp{
 	position: absolute;
-	top:300px;
+	top:550px;
 	height: 40px;
 	width:auto;
 	transition: top 0.2s linear;
@@ -1938,7 +1920,7 @@ box-shadow: -9px 11px 42px -8px rgba(0,0,0,0.75);
 
 tourCost{
 	position: absolute;
-	top:220px;
+	top:470px;
 	left:0;
 	right:70%;
 	font-family: "Lato",serif;
@@ -1953,7 +1935,7 @@ tourCost{
 }
 tourDates{
 	position: absolute;
-	top:220px;
+	top:470px;
 	left:30%;
 	right:0;
 	height:25px;
@@ -1999,3 +1981,29 @@ iframe{
 }
 
 
+.fixedContact{
+	z-index: 20px;
+	position: fixed;
+	background: rgba(255,255,255,0.8);
+	top:0;
+	right:30px;
+	font-size: 14px;
+	color: #000;
+	padding:7px;
+	border-bottom-right-radius: 5px;
+	font-family: sans-serif;
+	border-bottom-left-radius: 5px;
+
+}	
+
+.fb{
+	height:20px;
+	width:20px;
+	border:1px solid #fff;
+}
+
+.fb img{
+	height:20px;
+	width: 20px;
+	display: inline-block;
+}
