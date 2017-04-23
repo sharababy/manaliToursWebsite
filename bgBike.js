@@ -1,3 +1,7 @@
+
+if ( $(window).width() > 700) {      
+  //Add your javascript for large screens here 
+
 var canvas = document.getElementById("cartesian");
 	var y=0,para=0;
 	vel=2;
@@ -225,3 +229,6 @@ function init()
 	draw();
 }
 init();
+
+
+}

@@ -184,14 +184,6 @@ costBlock{
 }
 
 
-.slide6{
-  
-  width:100%;
-  min-height:450px;
-  height:auto;
-  background:#444242;
-
-}
 
 
 .timeline {
@@ -687,7 +679,7 @@ costBlock{
 .logo{
   
   width: 200px;
-  height: auto;
+  height: 60px;
   background:#fff;
   padding:10px;
   border-radius: 10px;
@@ -704,15 +696,14 @@ costBlock{
 }
 
 #foot-logo{
+  margin:50px;
   display: inline-block;
-  position: relative;
-  top:100px;
-  left:100px;
+
 }
 
 .footBox{
+  margin:50px;
   display: inline-block;
-  position: relative;
   width:300px;
   height: auto;
 }
@@ -735,7 +726,7 @@ costBlock{
 }
 
 .footHead{
-  margin-left:-90px;
+  margin-left:70px;
   color: #d5d5d5;
   font-size: 25px;
 }
@@ -750,12 +741,11 @@ costBlock{
 }*/
 
 .iframe-rwd  {
-  position: relative;
-  top:50px;
+  display: inline-block;
   height: 300px;
-  left:1000px;
   width:300px;
   overflow: hidden;
+  margin:30px;
 }
 
 .iframe-rwd iframe {
@@ -768,12 +758,7 @@ height: 100%;
 }
 
 .social-bar{
-  position: absolute;
-  top:400px;
-  left: 50%;
-  width:310px;
-  margin-left: -155px;
-  display: inline-block;
+  display: block;
 
 }
 
@@ -784,3 +769,54 @@ height: 100%;
 }
 
 
+
+.slide6{
+  width:100%;
+  min-height:380px;
+  height:auto;
+  background:#444242;
+  display: inline-flex;
+
+}
+
+
+@media screen and (max-width: 660px){
+
+
+  .slide6{
+    display: inline-grid;
+  }
+
+  .cdnContainer{
+  background: #000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  height:390px;
+  -webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
+
+  z-index: 0;
+}
+
+.content{
+
+  background:  rgb(230,230,230);
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top:400px;
+  left:0;
+  height:auto;
+
+}
+
+
+}

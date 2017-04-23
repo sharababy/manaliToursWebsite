@@ -1,3 +1,14 @@
+.container {
+  text-align: center;
+  height: 400px;
+  position: absolute;
+  top:200px;
+  left:60%;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* carousel */
 #quote-carousel 
 {
@@ -101,6 +112,13 @@
         width: 20px;
         height: 20px;
     }
+
+    .container {
+    width: 90%;
+    margin-left: -45%;
+    left:50%;
+    top:270px;
+  }
 }
 
 
@@ -322,16 +340,6 @@
 }
 .carousel-caption .btn {
   text-shadow: none;
-}
-.container {
-  text-align: center;
-  height: 400px;
-  position: absolute;
-  top:200px;
-  left:60%;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 768px) {
