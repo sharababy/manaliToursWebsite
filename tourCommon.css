@@ -784,7 +784,7 @@ height: 100%;
 
 
   .slide6{
-    display: inline-grid;
+    display: inline-table;
   }
 
   .cdnContainer{
@@ -796,7 +796,7 @@ height: 100%;
   position: absolute;
   top:0;
   left:0;
-  height:390px;
+  height:540px;
   -webkit-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
   box-shadow: inset 0px 0px 96px -13px rgba(0,0,0,0.75);
@@ -812,7 +812,7 @@ height: 100%;
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top:400px;
+  top:540px;
   left:0;
   height:auto;
 
