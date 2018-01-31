@@ -9,7 +9,7 @@ $(function () {
   var now = new Date();
 
   var currentDate = Date.now();
-  var start = new Date("7/7/2017 00:00:00");
+  var start = new Date("7/12/2018 00:00:00");
   var milliseconds = start.getTime(); 
   now.setTime(milliseconds);
   var endDateString = now.toISOString();
